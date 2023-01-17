@@ -1,0 +1,38 @@
+[
+  {
+    "images": "./images/kirkland/kirkland_pet/01.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 고양이 방석",
+    "price": "19,990",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_pet/02.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 애견 하우스 - 중형",
+    "price": "54,900",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_pet/03.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 소형견용 사료 9.07kg",
+    "price": "31,990",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_pet/04.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 터그놀이 장난감",
+    "price": "15,800",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  }
+]

@@ -1,0 +1,327 @@
+@import url(./reset.css);
+@import url(./common.css);
+
+/*tv_slider*/
+.tv_slider ul li .cont_01 {
+  background: #2f333f;
+}
+.tv_slider ul li .img_01 {
+  background: url(../images/visual/tv/01.png) no-repeat center center/cover;
+}
+.tv_slider ul li .cont_02 {
+  background: #264536;
+}
+.tv_slider ul li .img_02 {
+  background: url(../images/visual/tv/02.png) no-repeat center center/cover;
+}
+.tv_slider ul li .cont_03 {
+  background: #4a737c;
+}
+.tv_slider ul li .img_03 {
+  background: url(../images/visual/tv/03.png) no-repeat center center/cover;
+}
+.tv_slider ul li .cont_04 {
+  background: #313231;
+}
+.tv_slider ul li .img_04 {
+  background: url(../images/visual/tv/04.png) no-repeat center center/cover;
+}
+.tv_slider ul li .cont_05 {
+  background: #24374e;
+}
+.tv_slider ul li .img_05 {
+  background: url(../images/visual/tv/05.png) no-repeat center center/cover;
+}
+
+/*brand*/
+#brand .outer .inner > ul > li {
+  display: flex;
+}
+#brand .outer .inner > ul > li .brand_img {
+  width: 25%;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  position: relative;
+}
+#brand .outer .inner > ul > li .samsung_qled {
+  background: url(../images/tv/brand/samsung/qq.jpg) no-repeat 0 0 / cover;
+}
+#brand .outer .inner > ul > li .lg_oled {
+  background: url(../images/tv/brand/lg/oo.jpg) no-repeat 0 0 / cover;
+}
+#brand .outer .inner > ul > li .brand_img span {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  bottom: 20px;
+  left: 8%;
+  font-size: 32px;
+}
+#brand .outer .inner > ul > li .brand_container {
+  width: 75%;
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 0 20px 20px 0;
+  padding: 20px 0;
+}
+#brand .outer .inner > ul > li .brand_container > li {
+  position: relative;
+  width: calc((100% - 32px) / 3);
+  padding: 0 5px;
+}
+#brand .outer .inner > ul > li .brand_container > li > a {
+  display: block;
+  width: 100%;
+}
+#brand .outer .inner > ul > li .brand_container > li img {
+  border-radius: 20px;
+  width: 100%;
+}
+#brand .outer .inner > ul > li .brand_container > li h3 {
+  margin-top: 27px;
+  height: 45px;
+}
+#brand .outer .inner > ul > li .brand_container > li h3 a {
+  line-height: 1.2;
+}
+
+/*pick*/
+#pick {
+  padding: 50px 0 30px;
+}
+#pick .container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#pick .container ul li {
+  width: 50%;
+  margin-bottom: 50px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+#pick .container ul li a {
+  display: block;
+  width: 100%;
+}
+#pick .container ul li a img {
+  border-radius: 10px;
+  width: 100%;
+}
+#pick .container ul li h3 {
+  margin-top: 10px;
+}
+#pick .container ul li .pri_cart {
+  margin-top: 35px;
+}
+
+/*tv_list*/
+#tv_list {
+  padding: 50px 0 30px;
+  min-height: 2000px;
+}
+#tv_list h2 {
+  display: none;
+}
+#tv_list .filter {
+  display: flex;
+  flex-direction: column;
+}
+#tv_list .filter > h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  flex: 1;
+}
+#tv_list .filter .product_filter {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#tv_list .filter .product_filter .price_filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#tv_list .filter .product_filter .filter_input > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#tv_list .container .product_list {
+  margin-top: 40px;
+}
+#tv_list .product_filter h3 {
+  font-size: 20px;
+  margin-right: 100px;
+  width: 80px;
+}
+#tv_list .product_filter .filter_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.price_range {
+  width: 300px;
+  height: 10px;
+}
+.ui-widget-content .ui-state-default {
+  background: #0661a9;
+  border-radius: 50%;
+}
+.range {
+  margin-left: 20px;
+}
+.range input {
+  width: 100px;
+}
+
+#tv_list .filter_container {
+  font-size: 14px;
+  display: flex;
+}
+#tv_list .filter_container li {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+#tv_list .filter_container li label {
+  cursor: pointer;
+  display: inline-block;
+  /* margin-right: 5px; */
+}
+#tv_list .filter_container li input {
+  /* display: none; */
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+#tv_list .filter_container li .box {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  display: inline-block;
+  background: #d1d1d1;
+}
+#tv_list .filter_container li input:checked + .box {
+  background: #0661a9;
+}
+.item.hidden {
+  display: none;
+}
+/*=======================================================tv 종료*/
+
+@media all and (max-width: 1280px) {
+  /*tv_slider*/
+  .tv_slider ul li div:last-of-type {
+    background-position-y: 20%;
+  }
+
+  /*brand*/
+  #brand .outer .inner > ul > li {
+    flex-direction: column;
+  }
+  #brand .outer .inner > ul > li .brand_img {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+  }
+  #brand .outer .inner > ul > li .brand_img span {
+    font-size: 24px;
+  }
+  #brand .outer .inner > ul > li .brand_container {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+  }
+  #brand .outer .inner > ul > li .brand_container > li {
+    width: calc(100% / 3);
+  }
+
+  /*pick*/
+  #pick {
+    padding: 50px 20px 10px;
+  }
+  #pick .container ul li {
+    margin-bottom: 40px;
+  }
+
+  /*tv_list*/
+  #tv_list {
+    padding: 50px 20px 10px;
+  }
+  #tv_list .filter .product_filter .price_filter {
+    align-items: flex-start;
+  }
+  #tv_list .filter .product_filter .price_filter h3 {
+    flex: 1;
+  }
+  #tv_list .filter .product_filter .price_filter .filter_form {
+    flex: 3;
+  }
+  #tv_list .filter .product_filter .filter_input > div {
+    align-items: flex-start;
+  }
+  #tv_list .product_filter h3 {
+    font-size: 16px;
+    margin-right: 0;
+    flex: 1;
+  }
+  #tv_list .filter_container {
+    flex-wrap: wrap;
+    flex: 3;
+  }
+  #tv_list .filter_container li {
+    margin-bottom: 20px;
+  }
+  /*====================tv 종료*/
+}
+
+@media all and (max-width: 599px) {
+  /*brand*/
+  #brand .outer .inner > ul > li {
+    flex-direction: column;
+  }
+  #brand .outer .inner > ul > li .brand_img {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+  }
+  #brand .outer .inner > ul > li .brand_container {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    flex-direction: column;
+    padding: 20px 10px 0;
+    box-sizing: border-box;
+  }
+  #brand .outer .inner > ul > li .brand_container > li {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #brand .outer .inner > ul > li .brand_container > li > a {
+    width: 40%;
+  }
+  #brand .outer .inner > ul > li .brand_container > li .pro_info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-left: 10px;
+  }
+  #brand .outer .inner > ul > li .brand_container > li h3 {
+    margin-top: 0;
+  }
+  #brand .outer .inner > ul > li .brand_container > li .pri_cart {
+    margin-top: 0;
+  }
+
+  /*tv_list*/
+  #tv_list {
+    padding: 40px 20px 10px;
+  }
+  .price_range {
+    width: 260px;
+  }
+}

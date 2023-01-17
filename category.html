@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>검색 페이지 - Costco</title>
+    <meta
+      name="description"
+      content="언제 어디서나 쉽고 간편하게! 코스트코 온라인몰의 놀라운 혜택을 만나보세요."
+    />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./images/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./images/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/sub_page.css" />
+
+    <!--script-->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    ></script>
+    <script defer src="./js/sub_page.js"></script>
+  </head>
+  <body>
+    <main id="sub_page">
+      <header class="history_back category">
+        <button type="button" id="back" onclick="history.back()">
+          <span class="material-icons-outlined">chevron_left</span>
+        </button>
+        <form name="search" action="#" method="get">
+          <input
+            type="text"
+            placeholder="찾으시는 상품을 입력해주세요"
+            id="s_text"
+            name="SEARCH"
+          />
+          <input type="submit" value="검색" class="search_btn sprites" />
+        </form>
+      </header>
+
+      <div class="tab_rank">
+        <h2>인기검색어</h2>
+        <ol id="rolling" class="animated">
+          <li>
+            <a href=""><span>1</span>나이키 골프</a>
+          </li>
+          <li>
+            <a href=""><span>2</span>프레지덩 무염버터</a>
+          </li>
+          <li>
+            <a href=""><span>3</span>삼성 비스포크 청소기</a>
+          </li>
+          <li>
+            <a href=""><span>4</span>리비니아 원목 침대</a>
+          </li>
+          <li>
+            <a href=""><span>5</span>수지스 허브 닭가슴살</a>
+          </li>
+          <li>
+            <a href=""><span>6</span>대웅제약 밀크시슬</a>
+          </li>
+          <li>
+            <a href=""><span>7</span>휘슬러 그리들팬</a>
+          </li>
+          <li>
+            <a href=""><span>8</span>포멜카멜레 여성 로퍼</a>
+          </li>
+          <li>
+            <a href=""><span>9</span>럭스나인 라텍스 토퍼</a>
+          </li>
+          <li>
+            <a href=""><span>10</span>밀레 드럼세탁기 10kg</a>
+          </li>
+        </ol>
+      </div>
+
+      <section class="tab_category_list">
+        <h2>카테고리</h2>
+        <ul>
+          <li>
+            <a href="./TV.html">
+              <span class="material-symbols-outlined">tv</span>
+              <span>TV/컴퓨터</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">kitchen</span>
+              <span>대형/생활가전</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">lunch_dining</span>
+              <span>식품</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">chair</span>
+              <span>가구/침구</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">house</span>
+              <span>홈/키친</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">shopping_bag</span>
+              <span>의류/잡화</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">spa</span>
+              <span>미용/화장품</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">toys</span>
+              <span>유아동/완구</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">hiking</span>
+              <span>스포츠/헬스</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-symbols-outlined">health_and_safety</span>
+              <span>건강/영양제</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">diamond</span>
+              <span>보석/액세서리</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">grass</span>
+              <span>정원/창고</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-icons-outlined">handyman</span>
+              <span>공구/자동차</span>
+            </a>
+          </li>
+          <li>
+            <a href="./TV.html">
+              <span class="material-symbols-outlined">design_services</span>
+              <span>문구/사무/악기</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

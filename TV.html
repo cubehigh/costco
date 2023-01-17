@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TV - Costco</title>
+    <meta
+      name="description"
+      content="언제 어디서나 쉽고 간편하게! 코스트코 온라인몰의 놀라운 혜택을 만나보세요."
+    />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./images/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./images/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <link rel="stylesheet" href="./css/TV.css" />
+
+    <!--script-->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script defer src="./js/jQueryUI.js"></script>
+    <script defer src="./js/visual_slider.js" type="module"></script>
+    <script defer src="./js/TV.js" type="module"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header_top">
+        <div class="outer">
+          <h1><a href="./index.html" class="sprites logo">logo</a></h1>
+          <form action="#" method="get">
+            <input
+              type="text"
+              id="search"
+              placeholder="찾으시는 상품을 입력해주세요"
+            />
+            <input type="submit" value="검색" class="search_btn sprites" />
+          </form>
+          <ul class="shopping_nav">
+            <li><a href="./login.html">로그인</a></li>
+            <li><a href="">회원가입</a></li>
+            <li><a href="./login.html">쇼핑카트</a></li>
+            <li><a href="./login.html">온라인등록</a></li>
+            <li><a href="">ENG</a></li>
+          </ul>
+          <span class="t_shopping_nav"
+            ><a href="./login.html"><i class="fa-solid fa-cart-shopping"></i></a
+          ></span>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="outer">
+          <nav>
+            <ul class="gnb">
+              <li class="nav_category">
+                <span><i class="fa-solid fa-bars"></i>카테고리</span>
+                <ul class="submenu">
+                  <li class="drop-down">
+                    <a href="./TV.html">디지털/TV/컴퓨터</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">TV</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">39인치 이하</a></li>
+                            <li><a href="./TV.html">40 ~ 49인치 이하</a></li>
+                            <li><a href="./TV.html">50 ~ 59인치 이하</a></li>
+                            <li><a href="./TV.html">60 ~ 69인치 이하</a></li>
+                            <li><a href="./TV.html">70인치 이상</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">카메라</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">보안 카메라</a></li>
+                            <li><a href="./TV.html">카메라 액세서리</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">모바일</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">스마트기기/전화기</a></li>
+                            <li><a href="./TV.html">모바일 충전/배터리</a></li>
+                            <li><a href="./TV.html">휴대폰 액세서리</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">태블릿</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">태블릿</a></li>
+                            <li><a href="./TV.html">태블릿 액세서리</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">데스크탑/노트북</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">데스크탑</a></li>
+                            <li><a href="./TV.html">노트북</a></li>
+                            <li><a href="./TV.html">컴퓨터 액세서리</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">모니터/프린터</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">모니터</a></li>
+                            <li><a href="./TV.html">프린터</a></li>
+                            <li><a href="./TV.html">잉크/토너</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">게임</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">게이밍 의자</a></li>
+                            <li><a href="./TV.html">게이밍 헤드셋</a></li>
+                            <li><a href="./TV.html">게임/액세서리</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/lg_oled.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>엘지 OLED TV 특가 할인</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="">대형/생활가전</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">냉장고</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">일반/양문형 냉장고</a></li>
+                            <li><a href="./TV.html">김치냉장고</a></li>
+                            <li><a href="./TV.html">와인셀러</a></li>
+                            <li><a href="./TV.html">냉동고</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">주방가전</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">블렌더/믹서/쥬서기</a></li>
+                            <li><a href="./TV.html">커피메이커</a></li>
+                            <li><a href="./TV.html">전기/가스레인지</a></li>
+                            <li><a href="./TV.html">식기세척기/건조기</a></li>
+                            <li><a href="./TV.html">전자레인지/오븐</a></li>
+                            <li><a href="./TV.html">기타 주방가전</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">생활가전</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">청소기</a></li>
+                            <li>
+                              <a href="./TV.html">다리미/기타 생활가전</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">세탁기</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">일반 세탁기</a></li>
+                            <li><a href="./TV.html">드럼 세탁기</a></li>
+                            <li><a href="./TV.html">건조기</a></li>
+                            <li><a href="./TV.html">스타일러</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">미용/건강가전</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">안마의자</a></li>
+                            <li><a href="./TV.html">건강가전</a></li>
+                            <li><a href="./TV.html">면도기/제모기</a></li>
+                            <li><a href="./TV.html">뷰티가전</a></li>
+                            <li><a href="./TV.html">비데</a></li>
+                            <li><a href="./TV.html">스파/사우나</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">계절가전</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">히터</a></li>
+                            <li><a href="./TV.html">전기 매트/담요</a></li>
+                            <li>
+                              <a href="./TV.html">가습기/에어워셔/제습기</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/bespoke.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>삼성 BESPOKE 가전 모음</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">식품</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">쌀</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">쌀</a></li>
+                            <li><a href="./TV.html">잡곡</a></li>
+                            <li><a href="./TV.html">시리얼/시리얼 바</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">음료</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">생수/탄산수</a></li>
+                            <li><a href="./TV.html">주스</a></li>
+                            <li><a href="./TV.html">두유/우유</a></li>
+                            <li><a href="./TV.html">코코아/선식/파우더</a></li>
+                            <li><a href="./TV.html">탄산/기타음료</a></li>
+                            <li><a href="./TV.html">건강즙</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">건식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">건과일/건채소</a></li>
+                            <li><a href="./TV.html">건어물</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">신선식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">과일/채소</a></li>
+                            <li><a href="./TV.html">정육/계란</a></li>
+                            <li><a href="./TV.html">김치/반찬</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">냉장식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">냉장식품</a></li>
+                            <li><a href="./TV.html">햄/소시지</a></li>
+                            <li><a href="./TV.html">치즈/버터</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">냉동식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">씨푸드</a></li>
+                            <li><a href="./TV.html">아이스크림</a></li>
+                            <li><a href="./TV.html">볶음밥/밥류</a></li>
+                            <li><a href="./TV.html">간식/만두/전/치즈</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">가공식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">통조림/캔</a></li>
+                            <li><a href="./TV.html">즉석식품</a></li>
+                            <li><a href="./TV.html">라면/면류</a></li>
+                            <li><a href="./TV.html">빵</a></li>
+                            <li><a href="./TV.html">소스/양념</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">커피/차</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">원두/그라운드 커피</a></li>
+                            <li><a href="./TV.html">드립백 커피</a></li>
+                            <li><a href="./TV.html">인스턴트 커피</a></li>
+                            <li><a href="./TV.html">차/과일청</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/haagendazs.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>하겐다즈 시즌 한정</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">가구/침구/인테리어</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">거실가구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">소파</a></li>
+                            <li><a href="./TV.html">거실장/TV장/장식장</a></li>
+                            <li><a href="./TV.html">거실테이블</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">주방가구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">식탁 세트</a></li>
+                            <li><a href="./TV.html">테이블/식탁의자</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">침구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">이불/담요</a></li>
+                            <li><a href="./TV.html">침구 세트</a></li>
+                            <li><a href="./TV.html">토퍼/패드/스프레드</a></li>
+                            <li><a href="./TV.html">베개</a></li>
+                            <li><a href="./TV.html">쿠션/방석</a></li>
+                            <li><a href="./TV.html">아동 침구</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">홈인테리어</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">커튼/블라인드</a></li>
+                            <li><a href="./TV.html">카페트/러그</a></li>
+                            <li><a href="./TV.html">소파패드</a></li>
+                            <li><a href="./TV.html">욕실/주방매트</a></li>
+                            <li><a href="./TV.html">타월</a></li>
+                            <li><a href="./TV.html">기타 인테리어</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">침실가구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">매트리스</a></li>
+                            <li><a href="./TV.html">침대</a></li>
+                            <li><a href="./TV.html">돌침대/흙침대</a></li>
+                            <li><a href="./TV.html">모션침대/헤드보드</a></li>
+                            <li><a href="./TV.html">서랍장/화장대</a></li>
+                            <li><a href="./TV.html">협탁/사이드테이블</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">사무가구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">사무용 의자</a></li>
+                            <li><a href="./TV.html">책상</a></li>
+                            <li><a href="./TV.html">책장</a></li>
+                            <li><a href="./TV.html">학생/사무가구 세트</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">조명</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">테이블/플로어 램프</a></li>
+                            <li><a href="./TV.html">책상 스탠드</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/sidiz.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>시디즈 의자 신상 등장</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">홈/키친</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">조리용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">프라이팬/그릴</a></li>
+                            <li><a href="./TV.html">냄비/압력솥</a></li>
+                            <li><a href="./TV.html">쿡웨어세트</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">주방잡화</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">조리도구</a></li>
+                            <li><a href="./TV.html">칼/도마</a></li>
+                            <li><a href="./TV.html">주방수납/정리</a></li>
+                            <li><a href="./TV.html">주방 액세서리/용품</a></li>
+                            <li><a href="./TV.html">정수기용품</a></li>
+                            <li><a href="./TV.html">커피/베이킹용품</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2>
+                            <a href="./TV.html">세제/청소용품/욕실용품</a>
+                          </h2>
+                          <ul>
+                            <li><a href="./TV.html">세탁세제</a></li>
+                            <li><a href="./TV.html">주방세제</a></li>
+                            <li><a href="./TV.html">청소세제</a></li>
+                            <li><a href="./TV.html">청소용품</a></li>
+                            <li><a href="./TV.html">욕실용품</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">식탁용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">디너웨어</a></li>
+                            <li><a href="./TV.html">그릇/식기</a></li>
+                            <li><a href="./TV.html">수저/포크/나이프</a></li>
+                            <li><a href="./TV.html">컵/머그/물병</a></li>
+                            <li><a href="./TV.html">와인잔/맥주잔</a></li>
+                            <li><a href="./TV.html">보은/보냉용품</a></li>
+                            <li><a href="./TV.html">보관/밀폐용기</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/lock.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>믿고쓰는 락앤락</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="">의류/가방/잡화</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">여성의류</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">니트</a></li>
+                            <li><a href="./TV.html">셔츠/블라우스</a></li>
+                            <li><a href="./TV.html">하의</a></li>
+                            <li><a href="./TV.html">스포츠웨어</a></li>
+                            <li><a href="./TV.html">홈웨어</a></li>
+                            <li><a href="./TV.html">속옷</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">여성신발</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">운동화</a></li>
+                            <li><a href="./TV.html">캐주얼화</a></li>
+                            <li><a href="./TV.html">부츠</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">여성가방</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">토트백/숄더백</a></li>
+                            <li><a href="./TV.html">크로스백</a></li>
+                            <li><a href="./TV.html">클러치/지갑</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">남성의류</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">셔츠/탑/니트</a></li>
+                            <li><a href="./TV.html">하의</a></li>
+                            <li><a href="./TV.html">재킷/패딩/코트</a></li>
+                            <li><a href="./TV.html">스포츠웨어</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">남성신발</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">운동화</a></li>
+                            <li><a href="./TV.html">캐주얼화</a></li>
+                            <li><a href="./TV.html">슬리퍼/샌들</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">남성가방</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">백팩</a></li>
+                            <li><a href="./TV.html">토트백/서류가방</a></li>
+                            <li><a href="./TV.html">크로스백/지갑</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">유아동 의류</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">여아동의류</a></li>
+                            <li><a href="./TV.html">남아동의류</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">여행가방</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">기내용 캐리어</a></li>
+                            <li><a href="./TV.html">중/대형 캐리어</a></li>
+                            <li><a href="./TV.html">여행용 액세서리</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/polo.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>폴로 랄프로렌의 매력</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">화장품/미용/제지</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">바디/구강케어</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">샤워/입욕용품</a></li>
+                            <li><a href="./TV.html">바디로션/크림</a></li>
+                            <li><a href="./TV.html">핸드/풋/데오도란트</a></li>
+                            <li><a href="./TV.html">손세정제</a></li>
+                            <li><a href="./TV.html">구강케어</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">화장품/향수</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">스킨/토너/미스트</a></li>
+                            <li><a href="./TV.html">로션/크림</a></li>
+                            <li><a href="./TV.html">에센스/세럼/앰플</a></li>
+                            <li><a href="./TV.html">남성 화장품</a></li>
+                            <li><a href="./TV.html">메이크업</a></li>
+                            <li><a href="./TV.html">클렌징</a></li>
+                            <li><a href="./TV.html">팩/마스크</a></li>
+                            <li><a href="./TV.html">향수</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">미용/건강가전</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">안마의자</a></li>
+                            <li><a href="./TV.html">면도기/제모기</a></li>
+                            <li><a href="./TV.html">뷰티가전</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">헤어케어</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">샴푸/컨디셔너</a></li>
+                            <li><a href="./TV.html">헤어 영양/염색</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">화장지/위생용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">화장지/티슈</a></li>
+                            <li><a href="./TV.html">키친타월</a></li>
+                            <li><a href="./TV.html">위생용품</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/jo.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>프레시한 매력, 조 말론</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">유아동/완구/반려동물용품</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">기저귀/분유</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">기저귀</a></li>
+                            <li><a href="./TV.html">분유/이유식</a></li>
+                            <li><a href="./TV.html">유아간식</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">유아동 용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">유모차</a></li>
+                            <li><a href="./TV.html">카시트/아기띠</a></li>
+                            <li><a href="./TV.html">놀이방 매트</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">완구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">블럭 완구</a></li>
+                            <li><a href="./TV.html">미술놀이</a></li>
+                            <li><a href="./TV.html">인형</a></li>
+                            <li><a href="./TV.html">계절완구</a></li>
+                            <li><a href="./TV.html">보드게임/퍼즐</a></li>
+                            <li><a href="./TV.html">역할놀이</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">반려동물용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">강아지 사료</a></li>
+                            <li><a href="./TV.html">강아지 간식/영양제</a></li>
+                            <li><a href="./TV.html">강아지 용품</a></li>
+                            <li><a href="./TV.html">강아지 하우스</a></li>
+                            <li><a href="./TV.html">고양이 사료</a></li>
+                            <li><a href="./TV.html">고양이 용품</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/lego.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>LEGO X 소닉 콜라보</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">스포츠/헬스/캠핑</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">헬스/운동기구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">러닝/워킹/사이클</a></li>
+                            <li><a href="./TV.html">헬스기구/용품</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">다이어트/헬스 식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">헬스 보충식품</a></li>
+                            <li><a href="./TV.html">다이어트/뷰티 식품</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">아웃도어 스포츠</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">등산</a></li>
+                            <li><a href="./TV.html">겨울 스포츠</a></li>
+                            <li><a href="./TV.html">자전거/보드</a></li>
+                            <li><a href="./TV.html">골프</a></li>
+                            <li><a href="./TV.html">수상스포츠</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">캠핑</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">캠핑 의자/테이블</a></li>
+                            <li><a href="./TV.html">캠핑용품</a></li>
+                            <li><a href="./TV.html">매트/침낭/간이침대</a></li>
+                            <li><a href="./TV.html">캠핑요리도구</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/kovea.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>코베아, 캠핑 용품 할인</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">건강/영양제</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">비타민/미네랄</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">멀티 비타민</a></li>
+                            <li><a href="./TV.html">비타민 C</a></li>
+                            <li><a href="./TV.html">비타민 D</a></li>
+                            <li><a href="./TV.html">칼슘/마그네슘</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">보충/보조 식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">헬스 보충식품</a></li>
+                            <li><a href="./TV.html">관절 보충식품</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">기타 건강식품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">프로폴리스</a></li>
+                            <li><a href="./TV.html">유산균</a></li>
+                            <li><a href="./TV.html">오메가3/크릴오일</a></li>
+                            <li><a href="./TV.html">밀크씨슬</a></li>
+                            <li><a href="./TV.html">홍삼제품</a></li>
+                            <li><a href="./TV.html">기타 건강보조식품</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/jung.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>정관장으로 새해 선물 어때요?</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">보석/시계/액세서리</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">반지</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">다이아몬드 반지</a></li>
+                            <li><a href="./TV.html">골드 반지</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">목걸이</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">다이아몬드 목걸이</a></li>
+                            <li><a href="./TV.html">골드 목걸이</a></li>
+                            <li><a href="./TV.html">진주/유색석 목걸이</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">팔찌</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">다이아몬드 팔찌</a></li>
+                            <li><a href="./TV.html">골드 팔찌</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">귀걸이</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">다이아몬드 귀걸이</a></li>
+                            <li><a href="./TV.html">골드 귀걸이</a></li>
+                            <li><a href="./TV.html">진주/유색석 귀걸이</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">시계</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">여성시계</a></li>
+                            <li><a href="./TV.html">남성시계</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/ferragamo.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>페라가모 시크릿 콜렉션</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">파티오/정원/창고</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">정원 가구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">다이닝세트</a></li>
+                            <li><a href="./TV.html">발코니 세트</a></li>
+                            <li><a href="./TV.html">베드/벤치/그네</a></li>
+                            <li><a href="./TV.html">파라솔/차양막</a></li>
+                            <li><a href="./TV.html">테이블/의자</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">가든 용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">식물</a></li>
+                            <li><a href="./TV.html">정원 가위/툴</a></li>
+                            <li><a href="./TV.html">식물 영양제/비료</a></li>
+                            <li><a href="./TV.html">화분</a></li>
+                            <li><a href="./TV.html">간이텃밭</a></li>
+                            <li><a href="./TV.html">야외용 호스</a></li>
+                            <li><a href="./TV.html">고압세척기</a></li>
+                            <li><a href="./TV.html">잔디깎기</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">창고/보관함</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">조립식 창고</a></li>
+                            <li><a href="./TV.html">간이 천막/차고</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/Sunvilla.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>선빌라 야외 정원 기획전</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">공구/생활/자동차</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">선반/수납</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">선반/진열대</a></li>
+                            <li><a href="./TV.html">수납/옷걸이/휴지통</a></li>
+                            <li><a href="./TV.html">캐비닛</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">전구/야외조명</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">전구/실내등</a></li>
+                            <li><a href="./TV.html">야외조명</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">작업용 공구/설비/자재</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">컴프레서/발전기</a></li>
+                            <li>
+                              <a href="./TV.html">작업용 공구/안전용품</a>
+                            </li>
+                            <li>
+                              <a href="./TV.html">핸드트럭/사다리/스톨</a>
+                            </li>
+                            <li><a href="./TV.html">전동공구</a></li>
+                            <li>
+                              <a href="./TV.html">고압세척기/건습식청소기</a>
+                            </li>
+                            <li><a href="./TV.html">공구보관함/작업대</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">자동차용품</a></h2>
+                          <ul>
+                            <li>
+                              <a href="./TV.html">자동차 전기/전자용품</a>
+                            </li>
+                            <li><a href="./TV.html">세차용품</a></li>
+                            <li><a href="./TV.html">차량용품</a></li>
+                            <li><a href="./TV.html">자동차 오일/필터</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/energizer.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>에너자이저 긴급 할인</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="drop-down">
+                    <a href="./TV.html">문구/사무/악기/도서</a>
+                    <div class="menu-container">
+                      <div class="category-container">
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">악기</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">건반악기</a></li>
+                            <li><a href="./TV.html">현악기/기타 악기</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">문구</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">필기용품</a></li>
+                            <li><a href="./TV.html">스케치북/노트</a></li>
+                            <li><a href="./TV.html">크레욜라</a></li>
+                            <li><a href="./TV.html">학용품</a></li>
+                            <li><a href="./TV.html">봉투/라벨</a></li>
+                            <li><a href="./TV.html">도장</a></li>
+                            <li><a href="./TV.html">앨범/명함</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">사무정리용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">바인더</a></li>
+                            <li><a href="./TV.html">파일</a></li>
+                            <li><a href="./TV.html">책꽂이/선반</a></li>
+                            <li><a href="./TV.html">서류보관</a></li>
+                            <li><a href="./TV.html">사무용 액세서리</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">도서</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">유아</a></li>
+                            <li><a href="./TV.html">어린이</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">오피스 종이용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">복사지</a></li>
+                            <li><a href="./TV.html">포스트잇</a></li>
+                            <li><a href="./TV.html">기타 용지</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="categories-list">
+                          <h2><a href="./TV.html">사무용품</a></h2>
+                          <ul>
+                            <li><a href="./TV.html">클립/고무줄</a></li>
+                            <li><a href="./TV.html">풀/접착제/테이프</a></li>
+                            <li><a href="./TV.html">스테플러/펀치</a></li>
+                            <li><a href="./TV.html">가위/칼/자</a></li>
+                            <li><a href="./TV.html">보드용품</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="right-images">
+                        <img
+                          src="./images/nav_category_images/3M.jpg"
+                          alt="엘지티비"
+                        />
+                        <p>3M 사무용품 모음전</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="./new_items.html">신상품</a></li>
+              <li><a href="./special_sale.html">스페셜 할인</a></li>
+              <li><a href="./hot_items.html">인기상품</a></li>
+              <li><a href="./kirkland.html">커클랜드 시그니춰</a></li>
+              <li><a href="./business_delivery.html">비즈니스 딜리버리</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="swiper tv_slider visual">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="slider_content cont_01">
+              <div class="slider_desc">
+                <h2>압도적 화질</h2>
+                <h3>LG OLED TV의 감동을 느껴보세요</h3>
+              </div>
+            </div>
+            <div class="slider_img ir img_01">엘지</div>
+          </li>
+          <li class="swiper-slide">
+            <div class="slider_content cont_02">
+              <div class="slider_desc">
+                <h2>위대한 진화</h2>
+                <h3>삼성 QLED TV, 완벽의 디자인</h3>
+              </div>
+            </div>
+            <div class="slider_img ir img_02">삼성</div>
+          </li>
+          <li class="swiper-slide">
+            <div class="slider_content cont_03">
+              <div class="slider_desc">
+                <h2>스마트한 수업</h2>
+                <h3>제노스 UHD 전자칠판</h3>
+              </div>
+            </div>
+            <div class="slider_img ir img_03">제노스</div>
+          </li>
+          <li class="swiper-slide">
+            <div class="slider_content cont_04">
+              <div class="slider_desc">
+                <h2>가성비 끝판왕</h2>
+                <h3>TCL의 탄탄한 기본기를 경험하세요</h3>
+              </div>
+            </div>
+            <div class="slider_img ir img_04">tcl</div>
+          </li>
+          <li class="swiper-slide">
+            <div class="slider_content cont_05">
+              <div class="slider_desc">
+                <h2>국산 브랜드의 자존심</h2>
+                <h3>유맥스 TV 기획 모음전</h3>
+              </div>
+            </div>
+            <div class="slider_img ir img_05">유맥스</div>
+          </li>
+        </ul>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <section id="brand">
+        <h2 class="heading">BEST BRAND</h2>
+        <div class="outer">
+          <div class="swiper inner slider1">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="brand_img samsung_qled">
+                  <span>samsung<br />qled 4k</span>
+                </div>
+                <ul class="brand_container">
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img
+                        src="./images/tv/brand/samsung/q1.jpg"
+                        alt="samsung/q1"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href="">삼성 QLED TV KQ75QA70AFXKR 189cm (75)</a>
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          2,649,000<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img
+                        src="./images/tv/brand/samsung/q1.jpg"
+                        alt="samsung/q1"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href=""
+                          >삼성 Neo QLED 4K TV KQ65QNA83AFXKR 163cm (65)</a
+                        >
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          2,599,000<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img
+                        src="./images/tv/brand/samsung/q1.jpg"
+                        alt="samsung/q1"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href="">삼성 QLED TV KQ65QA80AFXKR 163cm (65)</a>
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          56,900<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="swiper-slide">
+                <div class="brand_img lg_oled">
+                  <span>lg<br />oled tv</span>
+                </div>
+                <ul class="brand_container">
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img src="./images/tv/brand/lg/o1.jpg" alt="lg/o1"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href="">엘지 OLED TV 65C1QNB 162cm (64)</a>
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          2,462,000<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img src="./images/tv/brand/lg/o2.jpg" alt="lg/o2"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href="">엘지 OLED TV 55A1MNA 139cm (55)</a>
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          2,599,000<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="brand_container_list">
+                    <a href=""
+                      ><img src="./images/tv/brand/lg/o3.jpg" alt="lg/o3"
+                    /></a>
+                    <div class="pro_info">
+                      <h3 class="pro_name">
+                        <a href="">엘지 OLED TV 77A1MNA 195cm (77)</a>
+                      </h3>
+                      <div class="pri_cart">
+                        <h4 class="pro_price">
+                          3,954,000<span class="won">원</span>
+                        </h4>
+                        <form action="" class="cart_btn">
+                          <button>
+                            <span class="material-icons-outlined cart"
+                              >shopping_cart</span
+                            >
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="swiper-pagination bullets"></div>
+          </div>
+          <div class="swiper-button-prev pager01_prev">
+            <span class="prev_btn sprites">prev</span>
+          </div>
+          <div class="swiper-button-next pager01_next">
+            <span class="next_btn sprites">next</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="pick">
+        <h2 class="heading">COSTCO'S PICK</h2>
+        <div class="container">
+          <ul>
+            <li>
+              <a href=""
+                ><img src="./images/tv/pick/pick1.jpg" alt="pick1"
+              /></a>
+              <p class="review">4.7(27)</p>
+              <h3 class="pro_name">
+                <a href=""
+                  >삼성 QLED TV KQ65QA80AFXKR 163cm (65) 사운드바 패키지</a
+                >
+              </h3>
+              <div class="pri_cart">
+                <h4 class="pro_price">2,649,000<span class="won">원</span></h4>
+                <form action="" class="cart_btn">
+                  <button>
+                    <span class="material-icons-outlined cart"
+                      >shopping_cart</span
+                    >
+                  </button>
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/tv/pick/pick2.jpg" alt="pick2"
+              /></a>
+              <p class="review">4.7(27)</p>
+              <h3 class="pro_name">
+                <a href="">엘지 OLED TV 83C1KNA 210cm (83)</a>
+              </h3>
+              <div class="pri_cart">
+                <h4 class="pro_price">8,746,990<span class="won">원</span></h4>
+                <form action="" class="cart_btn">
+                  <button>
+                    <span class="material-icons-outlined cart"
+                      >shopping_cart</span
+                    >
+                  </button>
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/tv/pick/pick3.jpg" alt="pick3"
+              /></a>
+              <p class="review">4.7(27)</p>
+              <h3 class="pro_name">
+                <a href="">제노스 UHD 스마트 전자칠판 CO750LT4K 189cm (75)</a>
+              </h3>
+              <div class="pri_cart">
+                <h4 class="pro_price">2,299,000<span class="won">원</span></h4>
+                <form action="" class="cart_btn">
+                  <button>
+                    <span class="material-icons-outlined cart"
+                      >shopping_cart</span
+                    >
+                  </button>
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/tv/pick/pick4.jpg" alt="pick4"
+              /></a>
+              <p class="review">4.7(27)</p>
+              <h3 class="pro_name">
+                <a href="">삼성 Crystal UHD TV KU75UA8000FXKR 189cm (75)</a>
+              </h3>
+              <div class="pri_cart">
+                <h4 class="pro_price">1,899,000<span class="won">원</span></h4>
+                <form action="" class="cart_btn">
+                  <button>
+                    <span class="material-icons-outlined cart"
+                      >shopping_cart</span
+                    >
+                  </button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="tv_list">
+        <h2 class="heading">tv_list</h2>
+        <div class="container">
+          <div class="filter">
+            <h3>필터</h3>
+            <div class="product_filter">
+              <div class="price_filter">
+                <h3>가격</h3>
+                <div class="filter_form">
+                  <div class="price_range"></div>
+                  <div class="range">
+                    <label for="below">&#8361;</label>
+                    <input type="text" id="below" />
+
+                    <label for="over">&#8361;</label>
+                    <input type="text" id="over" />
+                  </div>
+                  <!--range_form-->
+                </div>
+              </div>
+              <div class="filter_input">
+                <div class="brand_filter">
+                  <h3>브랜드</h3>
+                  <ul class="filter_container">
+                    <li>
+                      <label for="tcl">TCL</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="tcl"
+                        name="brand"
+                        value="tcl"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="samsung">삼성</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="samsung"
+                        name="brand"
+                        value="samsung"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="lg">엘지</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="lg"
+                        name="brand"
+                        value="lg"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="umax">유맥스</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="umax"
+                        name="brand"
+                        value="umax"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="zenos">제노스</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="zenos"
+                        name="brand"
+                        value="zenos"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="hisense">하이센스</label>
+                      <input
+                        class="filter-brand"
+                        type="checkbox"
+                        id="hisense"
+                        name="brand"
+                        value="hisense"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="resolution_filter">
+                  <h3>해상도</h3>
+                  <ul class="filter_container">
+                    <li>
+                      <label for="four_k">4K UHD</label>
+                      <input
+                        class="filter-resolution"
+                        type="checkbox"
+                        id="four_k"
+                        name="resolution"
+                        value="four_k"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="uhd">UHD</label>
+                      <input
+                        class="filter-resolution"
+                        type="checkbox"
+                        id="uhd"
+                        name="resolution"
+                        value="uhd"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="fhd">FHD</label>
+                      <input
+                        class="filter-resolution"
+                        type="checkbox"
+                        id="fhd"
+                        name="resolution"
+                        value="fhd"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="hd">HD</label>
+                      <input
+                        class="filter-resolution"
+                        type="checkbox"
+                        id="hd"
+                        name="resolution"
+                        value="hd"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="inch_filter">
+                  <h3>화면 크기</h3>
+                  <ul class="filter_container">
+                    <li>
+                      <label for="thirty">~39in</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="thirty"
+                        name="inch"
+                        value="thirty"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="fourty">40 ~ 49in</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="fourty"
+                        name="inch"
+                        value="fourty"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="fifty">50 ~ 59in</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="fifty"
+                        name="inch"
+                        value="fifty"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="sixty">60 ~ 69in</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="sixty"
+                        name="inch"
+                        value="sixty"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="seventy">70 ~ 79in</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="seventy"
+                        name="inch"
+                        value="seventy"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                    <li>
+                      <label for="eighty">80in +</label>
+                      <input
+                        class="filter-inch"
+                        type="checkbox"
+                        id="eighty"
+                        name="inch"
+                        value="eighty"
+                      />
+                      <span class="box ir">box</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--filter_input-->
+            </div>
+          </div>
+
+          <ul class="product_list product_container">
+            <!-- <li class="samsung four_k seventy">
+              <a href=""
+                ><img src="./images/tv/products/tv1.jpg" alt="tv1"
+              /></a>
+              <p class="review">4.7(27)</p>
+              <h3 class="pro_name">
+                <a href="">삼성 Neo QLED 4K TV KQ75QNA83AFXKR 189cm (75in)</a>
+              </h3>
+              <div class="pri_cart">
+                <h4 class="pro_price">3,799,000<span class="won">원</span></h4>
+                <form action="" class="cart_btn">
+                  <button>
+                    <span class="material-icons-outlined cart"
+                      >shopping_cart</span
+                    >
+                  </button>
+                </form>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="outer">
+        <div class="inner">
+          <div class="footer_top">
+            <div class="cs_center">
+              <h2 class="heading2">코스트코 고객센터</h2>
+              <ul>
+                <li>
+                  <a href=""
+                    ><span class="material-symbols-outlined"> help </span>FAQ</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><span class="material-symbols-outlined"> help </span>이메일
+                    문의</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offline_market">
+              <h2 class="heading2">매장찾기</h2>
+              <form action="#" method="get">
+                <input type="text" id="offline_search" placeholder="지역명" />
+                <input type="submit" value="검색" class="sprites search_btn" />
+              </form>
+            </div>
+            <div class="e-mail_sub">
+              <h2 class="heading2">이메일 구독하기</h2>
+              <a href="">Sign Up Today&#33;</a>
+            </div>
+            <div class="follow_us">
+              <h2 class="heading2">Follow Us</h2>
+              <ul>
+                <li>
+                  <a href=""><span class="sprites facebook">페이스북</span></a>
+                </li>
+                <li>
+                  <a href=""><span class="sprites kakaotalk">카카오톡</span></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><span class="sprites instagram">인스타그램</span></a
+                  >
+                </li>
+                <li>
+                  <a href=""><span class="sprites youtube">유튜브</span></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><span class="sprites kakaostory">카카오스토리</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer_bottom">
+            <ul class="provision">
+              <li><a href="">이용약관</a></li>
+              <li>
+                <a href=""><span>개인정보처리방침</span></a>
+              </li>
+              <li><a href="">영상정보처리기기운영 &#183; 관리방침</a></li>
+              <li><a href="">상표 사용 지침</a></li>
+            </ul>
+            <div class="footer_flex">
+              <p class="costco_info">
+                &#40;주&#41;코스트코코리아<br />
+                14347 경기도 광명시 일직로 40 &#40;일직동 163-3&#41; | 대표자 :
+                조민수 | 사업자 등록번호 : 107-81-63829 | 통신판매업 신고번호 :
+                제2013-경기광명-0013호 | 전화 : 1899-9900 | E-mail :
+                <a href="#">고객센터 문의 바로가기 ▶ &#40;매장/온라인&#41;</a> |
+                개인 정보 보호책임자 : 신강식&#40;E-mail :
+                <a href="#">webmanager@costcokr.com</a>&#41; | 호스팅제공자 :
+                Google Ireland Ltd. | 사업자정보확인
+              </p>
+              <p class="keb">
+                KEB 하나은행 구매 안전서비스<br />
+                회원님은 안전거래를 위해 실시간 계좌이체 결제시<br />
+                코스트코에서 가입한 KEB 하나은행의<br />구매안전서비스&#40;채무지급보증&#41;를
+                이용하실 수 있습니다.<br />
+                서비스 가입사실 확인
+              </p>
+            </div>
+            <div class="kisa">
+              <span class="sprites kisa_logo">kisa</span>
+              <p>
+                &#91;인증범위&#93; 코스트코 온라인몰 서비스 운영<br />
+                &#91;유효기간&#93; 2018.12.27 ~ 2022.12.26
+              </p>
+            </div>
+            <p class="copyright">
+              &#169; 2022 Costco Wholesale Corporation. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="tabbar">
+      <ul>
+        <li class="tabbar_items tab_menu">
+          <a href="./category.html">
+            <span class="material-icons-outlined">menu</span>
+          </a>
+        </li>
+        <li class="tabbar_items">
+          <a href="./login.html">
+            <span class="material-icons-outlined">card_membership</span>
+          </a>
+        </li>
+        <li class="tabbar_items">
+          <a href="./index.html">
+            <span class="material-icons-outlined">home</span>
+          </a>
+        </li>
+        <li class="tabbar_items">
+          <a href="./login.html">
+            <span class="material-icons-outlined">person</span>
+          </a>
+        </li>
+        <li class="tabbar_items">
+          <a href="">
+            <span class="material-icons-outlined">language</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <button class="go_top"><i class="fa-solid fa-arrow-up"></i></button>
+  </body>
+</html>

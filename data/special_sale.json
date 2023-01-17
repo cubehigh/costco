@@ -1,0 +1,182 @@
+[
+  {
+    "images": "./images/special_sale/sale_products/01.jpg",
+    "review": "4.7(27)",
+    "title": "HTL 패브릭 4인 소파",
+    "price": "2,199,000",
+    "discount": "15",
+    "dis_price": "1,699,000",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/02.jpg",
+    "review": "4.7(27)",
+    "title": "나비드 천연 라텍스 토퍼(9.0cm)-퀸",
+    "price": "400,000",
+    "discount": "6",
+    "dis_price": "376,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/03.jpg",
+    "review": "4.7(27)",
+    "title": "덴비 헤리티지 찻잔 세트 5P",
+    "price": "78,000",
+    "discount": "5",
+    "dis_price": "73,990",
+    "type": "home"
+  },
+  {
+    "images": "./images/special_sale/sale_products/04.jpg",
+    "review": "4.7(27)",
+    "title": "레스토닉유로탑 투매트리스 침대세트-슈퍼싱글",
+    "price": "910,000",
+    "discount": "7",
+    "dis_price": "849,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/05.jpg",
+    "review": "4.7(27)",
+    "title": "산펠레그리노 탄산수 500ml x 24",
+    "price": "29,000",
+    "discount": "10",
+    "dis_price": "26,990",
+    "type": "food"
+  },
+  {
+    "images": "./images/special_sale/sale_products/06.jpg",
+    "review": "4.7(27)",
+    "title": "씰리 베이직 메모리폼 베개",
+    "price": "38,790",
+    "discount": "10",
+    "dis_price": "34,790",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/07.jpg",
+    "review": "4.7(27)",
+    "title": "요시카와 야채 탈수기",
+    "price": "30,000",
+    "discount": "15",
+    "dis_price": "25,490",
+    "type": "home"
+  },
+  {
+    "images": "./images/special_sale/sale_products/08.jpg",
+    "review": "4.7(27)",
+    "title": "장수돌침대 다하스 흙침대1304-퀸",
+    "price": "1,999,000",
+    "discount": "15",
+    "dis_price": "1,699,000",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/09.jpg",
+    "review": "4.7(27)",
+    "title": "종근당건강 6년근 홍삼골드 70ml x 30포 x 2세트",
+    "price": "33,990",
+    "discount": "12",
+    "dis_price": "29,900",
+    "type": "food"
+  },
+  {
+    "images": "./images/special_sale/sale_products/10.jpg",
+    "review": "4.7(27)",
+    "title": "파주 아끼바레쌀 10kg x 2",
+    "price": "67,990",
+    "discount": "10",
+    "dis_price": "50,990",
+    "type": "food"
+  },
+  {
+    "images": "./images/special_sale/sale_products/11.jpg",
+    "review": "4.7(27)",
+    "title": "프라임 썬키스트 Daily Nuts 20g x 60입",
+    "price": "42,000",
+    "discount": "5",
+    "dis_price": "39,990",
+    "type": "food"
+  },
+  {
+    "images": "./images/special_sale/sale_products/12.jpg",
+    "review": "4.7(27)",
+    "title": "해피콜 그래핀 IH 계란말이팬 중형",
+    "price": "33,000",
+    "discount": "21",
+    "dis_price": "25,990",
+    "type": "home"
+  },
+  {
+    "images": "./images/special_sale/sale_products/13.jpg",
+    "review": "4.7(27)",
+    "title": "씰리 천연 라텍스 매트리스 Selene G - 슈퍼싱글",
+    "price": "750,000",
+    "discount": "9",
+    "dis_price": "679,000",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/14.jpg",
+    "review": "4.7(27)",
+    "title": "시디즈 디즈니 아띠 의자 책상세트",
+    "price": "210,000",
+    "discount": "11",
+    "dis_price": "185,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/15.jpg",
+    "review": "4.7(27)",
+    "title": "에보니아 엘다 원목 편수 책상 3단 서랍 - 책꽂이 포함",
+    "price": "500,000",
+    "discount": "4",
+    "dis_price": "479,000",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/special_sale/sale_products/16.jpg",
+    "review": "4.7(27)",
+    "title": "엘지 오브제 글라스 4도어 냉장고 870L, 베이지",
+    "price": "2,750,000",
+    "discount": "9",
+    "dis_price": "2,499,900",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/special_sale/sale_products/17.jpg",
+    "review": "4.7(27)",
+    "title": "프로쉬 알로에베라 세탁세제 1.5L x 5",
+    "price": "70,000",
+    "discount": "12",
+    "dis_price": "61,500",
+    "type": "home"
+  },
+  {
+    "images": "./images/special_sale/sale_products/18.jpg",
+    "review": "4.7(27)",
+    "title": "케터 사하라 화분, 지름 53cm",
+    "price": "55,000",
+    "discount": "13",
+    "dis_price": "47,990",
+    "type": "garden"
+  },
+  {
+    "images": "./images/special_sale/sale_products/19.jpg",
+    "review": "4.7(27)",
+    "title": "가디스 우드 데코 플랜터 900",
+    "price": "45,000",
+    "discount": "11",
+    "dis_price": "39,900",
+    "type": "garden"
+  },
+  {
+    "images": "./images/special_sale/sale_products/20.jpg",
+    "review": "4.7(27)",
+    "title": "DEWALT 20V 브러쉬리스 햄머드릴세트",
+    "price": "380,000",
+    "discount": "10",
+    "dis_price": "342,000",
+    "type": "tool"
+  }
+]

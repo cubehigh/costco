@@ -1,0 +1,142 @@
+[
+  {
+    "images": "./images/new_items/products/01.jpg",
+    "review": "4.7(27)",
+    "title": "소닉 레트로 멀티 쿠커 3L",
+    "price": "57,900",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/new_items/products/02.jpg",
+    "review": "4.7(27)",
+    "title": "Britannica 야외용 매트 152x182cm",
+    "price": "28,990",
+    "type": "sports"
+  },
+  {
+    "images": "./images/new_items/products/03.jpg",
+    "review": "4.7(27)",
+    "title": "레고 닌자고 제이와 니야의 레이스카 EVO 71776",
+    "price": "69,900",
+    "type": "toy"
+  },
+  {
+    "images": "./images/new_items/products/04.jpg",
+    "review": "4.7(27)",
+    "title": "무아스 소프트버블 자동 손세정기 2PK",
+    "price": "38,990",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/new_items/products/05.jpg",
+    "review": "4.7(27)",
+    "title": "SK매직 스핀업 무선 물걸레 청소기",
+    "price": "129,900",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/new_items/products/06.jpg",
+    "review": "4.7(27)",
+    "title": "뉴젠 반신욕기 IF-006",
+    "price": "1,199,000",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/new_items/products/07.jpg",
+    "review": "4.7(27)",
+    "title": "데스커 노트북 데스크 1200 X 590",
+    "price": "149,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/new_items/products/08.jpg",
+    "review": "4.7(27)",
+    "title": "로고스 레트로 감성 랜턴",
+    "price": "39,900",
+    "type": "sports"
+  },
+  {
+    "images": "./images/new_items/products/09.jpg",
+    "review": "4.7(27)",
+    "title": "벤소닉 와플/샌드위치 메이커& 요리핀셋 세트",
+    "price": "82,990",
+    "type": "appliance"
+  },
+  {
+    "images": "./images/new_items/products/10.jpg",
+    "review": "4.7(27)",
+    "title": "컷팅 오벌 골드 팔찌",
+    "price": "289,900",
+    "type": "jewelry"
+  },
+  {
+    "images": "./images/new_items/products/11.jpg",
+    "review": "4.7(27)",
+    "title": "폴리스 여성 뉴지 양가죽 재킷",
+    "price": "199,900",
+    "type": "wear"
+  },
+  {
+    "images": "./images/new_items/products/12.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 면 침구 세트 4P - 퀸",
+    "price": "79,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/new_items/products/13.jpg",
+    "review": "4.7(27)",
+    "title": "욕실용 일체형 진열장",
+    "price": "389,900",
+    "type": "furniture"
+  },
+  {
+    "images": "./images/new_items/products/14.jpg",
+    "review": "4.7(27)",
+    "title": "트라이앵글 샐러드 서버 세트",
+    "price": "43,990",
+    "type": "home"
+  },
+  {
+    "images": "./images/new_items/products/15.jpg",
+    "review": "4.7(27)",
+    "title": "소프리스 풋 스크럽 샴푸 280ml x 2 + 브러쉬 세트",
+    "price": "23,490",
+    "type": "cosmetic"
+  },
+  {
+    "images": "./images/new_items/products/16.jpg",
+    "review": "4.7(27)",
+    "title": "마비스 치약세트 85ml x 3",
+    "price": "39,900",
+    "type": "home"
+  },
+  {
+    "images": "./images/new_items/products/17.jpg",
+    "review": "4.7(27)",
+    "title": "리츠 크래커 80g x 24개",
+    "price": "24,990",
+    "type": "food"
+  },
+  {
+    "images": "./images/new_items/products/18.jpg",
+    "review": "4.7(27)",
+    "title": "팀버리지 타프 텐트",
+    "price": "49,900",
+    "type": "sports"
+  },
+  {
+    "images": "./images/new_items/products/19.jpg",
+    "review": "4.7(27)",
+    "title": "발고비아 페이퍼스톤 베이직 3P 칼세트",
+    "price": "114,900",
+    "type": "home"
+  },
+  {
+    "images": "./images/new_items/products/20.jpg",
+    "review": "4.7(27)",
+    "title": "프링글스 53g x 24팩",
+    "price": "19,590",
+    "type": "food"
+  }
+]

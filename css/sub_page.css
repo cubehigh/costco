@@ -1,0 +1,351 @@
+@import url(./reset.css);
+@import url(./common.css);
+
+/*login_page*/
+#sub_page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+#sub_page .history_back {
+  display: none;
+}
+#sub_page section {
+  width: 600px;
+  padding: 60px 50px;
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sub_page .sub_content > h2 {
+  background-position: -216px -127px;
+  width: 201px;
+  height: 58px;
+  margin: 0 auto;
+  text-align: center;
+}
+#sub_page .sub_content > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+}
+#sub_page .sub_content fieldset legend {
+  display: none;
+}
+#sub_page .sub_content fieldset label {
+  display: none;
+}
+#sub_page .sub_content fieldset input {
+  border-bottom: 1px solid #797979;
+  display: block;
+  width: 100%;
+  height: 56px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 56px;
+  outline: none;
+}
+#sub_page .sub_content fieldset input#userpasswd {
+  margin-top: 32px;
+}
+#sub_page .sub_content .login_forget {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sub_page .sub_content .login_forget a {
+  font-size: 15px;
+  display: block;
+  color: #797979;
+}
+#sub_page .sub_content .login_forget .keepid_box {
+  display: flex;
+  align-items: center;
+}
+#sub_page .sub_content .login_forget .keepid_box input {
+  display: none;
+}
+#sub_page .sub_content .login_forget .keepid_box input:checked + label > .box {
+  border: 5px solid #0661a9;
+  box-sizing: border-box;
+}
+#sub_page .sub_content .login_forget .keepid_box label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#sub_page .sub_content .login_forget .keepid_box label .box {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #dcdcdc;
+  display: inline-block;
+  margin-right: 6px;
+}
+#sub_page .sub_content .login_forget .keepid_box label span {
+  font-size: 15px;
+}
+#sub_page .btn_big {
+  margin-top: 40px;
+  width: 100%;
+  height: 56px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+#sub_page .sign_in {
+  background: #0661a9;
+  color: #fff;
+}
+#sub_page .sign_up {
+  border: 1px solid #0661a9;
+  background: #fff;
+}
+#sub_page .sign_up span {
+  color: #0661a9;
+  line-height: 56px;
+  text-align: center;
+  display: block;
+}
+#sub_page .sub_content .sns_login {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sub_page .sub_content .sns_login .sns_list {
+  display: flex;
+  margin-top: 16px;
+}
+#sub_page .sub_content .sns_login .sns_list li {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #d6d6d6;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+#sub_page .sub_content .sns_login .sns_list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#sub_page .sub_content .sns_login .sns_list li a span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+#sub_page .sub_content .sns_login .sns_list li a .naver {
+  background-position: 0px -298px;
+}
+#sub_page .sub_content .sns_login .sns_list li a .kakao {
+  background-position: -28px -298px;
+}
+#sub_page .sub_content .sns_login .sns_list li a .google {
+  background-position: -55px -297px;
+}
+#sub_page .sub_content .sns_login .sns_list li a .instagram {
+  background-position: -83px -297px;
+}
+
+@media all and (max-width: 1280px) {
+  /*login_page & category*/
+  #sub_page .history_back {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    box-sizing: border-box;
+  }
+  #sub_page .history_back button {
+    padding: 0;
+  }
+  #sub_page .history_back button span {
+    font-size: 45px;
+  }
+  #sub_page section {
+    justify-content: flex-start;
+    padding: 60px 50px;
+  }
+
+  /*login_page*/
+  #sub_page .login {
+    padding: 60px 50px 0;
+  }
+  #sub_page .login button {
+    position: absolute;
+  }
+  #sub_page .login h1 {
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  #sub_page .sub_content > h2 {
+    display: none;
+  }
+  #sub_page .sub_content > form {
+    margin-top: 0;
+  }
+
+  /*category*/
+  #sub_page .category {
+    padding: 60px 50px 0;
+  }
+  #sub_page .category form {
+    flex: 1;
+    display: flex;
+    border: 1px solid #7b7b7b;
+    border-radius: 5px;
+    height: 56px;
+    padding: 3px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  #sub_page .history_back form input#s_text {
+    flex: 1;
+    outline: none;
+    font-size: 16px;
+  }
+  #sub_page .history_back form .search_btn {
+    background-position: -238px -33px;
+    width: 30px;
+    height: 32px;
+    display: inline-block;
+    padding: 0;
+    margin-right: 8px;
+  }
+  #sub_page .tab_rank {
+    height: 26px;
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+    margin-top: 30px;
+    min-height: 26px;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  #sub_page .tab_rank > h2 {
+    width: 78px;
+    text-align: center;
+    background: #0661a9;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 5px;
+  }
+
+  #rolling {
+    position: relative;
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  #rolling > li {
+    width: 100%;
+    height: 26px;
+  }
+
+  #rolling > li > a {
+    display: block;
+    /* background: yellow; */
+    width: 100%;
+    line-height: 26px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  #rolling span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #0661a9;
+  }
+
+  #sub_page .tab_category_list > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  #sub_page .tab_category_list > ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  #sub_page .tab_category_list > ul > li {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    border: 1px solid #7b7b7b;
+    border-radius: 5px;
+  }
+
+  #sub_page .tab_category_list > ul > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #sub_page .tab_category_list > ul > li > a > span {
+    display: block;
+  }
+
+  #sub_page .tab_category_list > ul > li > a > span:first-child {
+    font-size: 35px;
+  }
+
+  #sub_page .tab_category_list > ul > li > a > span:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 599px) {
+  /*login_page & category*/
+  #sub_page {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #sub_page .history_back {
+    width: 100%;
+  }
+  #sub_page section {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  /*login_page*/
+  #sub_page .login {
+    padding: 40px 0 0;
+  }
+  #sub_page .sub_content .sns_login .sns_list li {
+    margin: 0 10px;
+  }
+
+  /*category*/
+  #sub_page .category {
+    padding: 40px 0 0;
+  }
+  #sub_page .history_back form input#s_text {
+    font-size: 14px;
+  }
+  #sub_page .tab_rank {
+    width: 100%;
+    padding: 0;
+  }
+}

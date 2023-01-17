@@ -1,0 +1,56 @@
+[
+  {
+    "images": "./images/kirkland/kirkland_home/01.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 커틀러리 세트 8P",
+    "price": "76,900",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_home/02.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 산토쿠 나이프 18cm",
+    "price": "57,900",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_home/03.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 인테리어 의자",
+    "price": "22,490",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_home/04.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 면 침구세트 3P - 퀸",
+    "price": "112,000",
+    "discount": "6",
+    "dis_price": "104,900",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_home/05.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 면 자수 쿠션 50 x 50cm",
+    "price": "31,000",
+    "discount": "19",
+    "dis_price": "24,490",
+    "type": ""
+  },
+  {
+    "images": "./images/kirkland/kirkland_home/06.jpg",
+    "review": "4.7(27)",
+    "title": "커클랜드 시그니춰 순면 자카드 스프레드 세트-킹",
+    "price": "51,490",
+    "discount": "",
+    "dis_price": "",
+    "type": ""
+  }
+]

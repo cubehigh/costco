@@ -1,0 +1,68 @@
+[
+    {
+        "images": "./images/kirkland/kirkland_food/01.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 가염 버터 200g x 4",
+        "price": "19,990"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/02.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 무염 믹스넛 1.13kg",
+        "price": "23,890"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/03.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 먹는 샘물 2L x 24 + 500ml x 40",
+        "price": "23,190"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/04.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 엑스트라 버진 올리브유 3L (스페인)",
+        "price": "22,590"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/05.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 포도씨유 1L x 4",
+        "price": "26,990"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/06.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 캐비아 오시에트라 30g x 2",
+        "price": "119,900"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/07.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 젤리빈 1.8kg",
+        "price": "24,890"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/08.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 콜럼비아 원두커피 1.36kg",
+        "price": "23,490"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/09.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 베다체다 소시지 793g",
+        "price": "15,790"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/10.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 단풍시럽 1L",
+        "price": "16,990"   
+    },
+    {
+        "images": "./images/kirkland/kirkland_food/11.jpg",
+        "review": "4.7(27)",
+        "title": "커클랜드 시그니춰 하프갤런 바닐라+하프갤런 초코",
+        "price": "43,990"   
+    }    
+]
